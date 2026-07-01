@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6i0039/T/v1
+canonical_location: https://kanripo.org/bkk/KR6i0039/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 彌勒上生經宗要
+  identifiers:
+    krp: KR6i0039
+    cbeta: T38n1773
+    cbeta_old_id: T38n1773
+    authorityid: CA0002190
+    json_key: T1773
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T38/T38n1773.xml
+    old_id: T38n1773
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0039_000-T.yaml, hash: 'sha256:08f4e28fec5c55d660f22c2cbf6595db157b2dc6fcf0179aef235bcbba28aee3'}
+  - {seq: 1, filename: KR6i0039_001-T.yaml, hash: 'sha256:22e535ed32d755766b46ae2784fee015913604573ebeb098be3154b473928c64'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6i0039_000-T.markers.yaml, hash: 'sha256:ab06718578eb9ba6b5804e1ea968970a6ce7d6e8151e446e2b549ad7d2936414'}
+  - {seq: 1, role: markers, filename: assets/KR6i0039_001-T.markers.yaml, hash: 'sha256:9ef35c4454013af8c5c9e53be77f7ae8eb307cda883d6293029b7432a1031915'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0039_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 5651
+  label: 彌勒上生經宗要
+  type: juan
+  level: 1
+hash: sha256:455ae2f76134180bf4eecebf9904479753688bafdb9befcb4b383bd4a374f880
