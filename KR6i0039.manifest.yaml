@@ -25,9 +25,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0039_000.yaml, hash: 'sha256:08f4e28fec5c55d660f22c2cbf6595db157b2dc6fcf0179aef235bcbba28aee3'}
-  - {seq: 1, filename: KR6i0039_001.yaml, hash: 'sha256:94ddc6ae62d45ca21e17ba47bab04e407fe7f1dc545a0f0b16a2bff6ffe70870'}
+  - {seq: 1, filename: KR6i0039_001.yaml, hash: 'sha256:22e535ed32d755766b46ae2784fee015913604573ebeb098be3154b473928c64'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6i0039_001.markers.yaml, hash: 'sha256:5f596b7a7c2bb612759119e3241be762d2a4f4dca7d353dce9d56d657302c9ca'}
+  - {seq: 0, role: markers, filename: assets/KR6i0039_000.markers.yaml, hash: 'sha256:39b4cb5cc62d787cc26e55d716231c9e61260580c23319b8c826fe26fc3bc464'}
+  - {seq: 1, role: markers, filename: assets/KR6i0039_001.markers.yaml, hash: 'sha256:cab2a7df4943c80eac62c47b91b430944ee79423be281522b82ff4dba4ee0e16'}
 table_of_contents:
 - ref:
     seq: 1
@@ -39,7 +40,4 @@ table_of_contents:
   label: 彌勒上生經宗要
   type: juan
   level: 1
-hash: sha256:516126a682f6162c20be5b2cb49945d351fc9a45b4296406a599a13901f45c2d
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:e94cd69786bd768f97f95d784bdfbe1600065c9dae4d18c3d2d2a7b692566973
